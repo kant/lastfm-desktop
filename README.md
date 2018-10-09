@@ -4,9 +4,9 @@ qmake && make
 
 Apps are styled using stylesheets which are found in the source directory
 of the app. To apply the style execute the application in the following manner:
-
+```
 ./audioscrobbler -stylesheet path/to/audioscrobbler.css
-
+```
 (by default the executable path is checked for the css file on Windows and on OSX 
  the bundle Resource directory is checked)
 
@@ -44,9 +44,9 @@ I wrote that from memory as I'm working on a Mac today. If it's wrong please
 write and correct me. KTHXBAI.
 
 Ubuntu install deps line:
-
+```
 sudo apt-get install libsqlite3-dev libqt4-sql-sqlite
-
+```
 Mac OS X
 --------
 We suggest you install Qt 4.8 from the Qt SDK from the Qt website. Then, the
